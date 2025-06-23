@@ -9,3 +9,14 @@ D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\
 D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\SantronWinApp.pdb
 D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\bin\Debug\SantronWinApp.pdb
 D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\SantronWinApp.Patient_Information.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\bin\Debug\SantronWinApp.exe.config
+D:\Mitroz Project\Window App\SantronWinAppRepo\bin\Debug\SantronWinApp.exe
+D:\Mitroz Project\Window App\SantronWinAppRepo\bin\Debug\SantronWinApp.pdb
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.AssemblyReference.cache
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.MasterForm.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.Patient_Information.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.Properties.Resources.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.GenerateResource.cache
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.CoreCompileInputs.cache
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.exe
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.pdb
