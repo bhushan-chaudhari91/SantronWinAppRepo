@@ -72,10 +72,22 @@ namespace SantronWinApp
             //statusBarMenuItem.Click += (s, args) => MessageBox.Show("Copy selected!", "Info");
 
             //For Setup Menu
-            systemMenuItem.Click += (s, args) => MessageBox.Show("Copy selected!", "Info");
-            hospitalMenuItem.Click += (s, args) => MessageBox.Show("Paste completed!", "Info");
-            pressureMenuItem.Click += (s, args) => MessageBox.Show("Paste completed!", "Info");
-
+            systemMenuItem.Click += (s, args) =>
+            {
+                SystemSetup systemForm = new SystemSetup();
+                systemForm.Show(); 
+            };
+            hospitalMenuItem.Click += (s, args) =>
+            {
+                HospitalAndDoctorInfoSetUp hospitalForm = new HospitalAndDoctorInfoSetUp();
+                hospitalForm.Show();
+            };
+            //pressureMenuItem.Click += (s, args) => MessageBox.Show("Paste completed!", "Info");
+            pressureMenuItem.Click += (s, args) =>
+            {
+                ScaleAndColorSteup pressureStudyForm = new ScaleAndColorSteup();
+                pressureStudyForm.Show();
+            };
             //For Help Menu
             aboutMenuItem.Click += (s, args) => MessageBox.Show("Santron UroDynamics Version U3.0 with UPP && UFM+EMG\r\nUpgrade dated 27-05-2024\r\nMfg. by : Santron Meditronic, Pune 411037, Email: santronmeditronic@gmail.com\r\nVisit us at www.santronmeditronic.in\r\nSales: +91-9561030550\r\nService Customer care Support: +91-9209584218", "About");
             helpMenuItem.Click += (s, args) => MessageBox.Show("Read Only", "About");

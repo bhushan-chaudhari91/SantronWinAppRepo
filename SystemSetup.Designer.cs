@@ -52,7 +52,6 @@
             this.textP2 = new System.Windows.Forms.TextBox();
             this.textJf = new System.Windows.Forms.TextBox();
             this.textUPP = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.textSPGravity = new System.Windows.Forms.TextBox();
@@ -71,16 +70,16 @@
             this.checkComments = new System.Windows.Forms.CheckBox();
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(55, 29);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(55, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 32);
+            this.label3.Size = new System.Drawing.Size(42, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "Pves";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -88,20 +87,18 @@
             // txtPves
             // 
             this.txtPves.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPves.Location = new System.Drawing.Point(202, 32);
-            this.txtPves.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPves.Location = new System.Drawing.Point(109, 31);
             this.txtPves.Name = "txtPves";
-            this.txtPves.Size = new System.Drawing.Size(116, 30);
+            this.txtPves.Size = new System.Drawing.Size(59, 22);
             this.txtPves.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 77);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(52, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 32);
+            this.label1.Size = new System.Drawing.Size(45, 21);
             this.label1.TabIndex = 6;
             this.label1.Text = "pabd";
             // 
@@ -109,10 +106,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(55, 122);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(11, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 32);
+            this.label2.Size = new System.Drawing.Size(86, 21);
             this.label2.TabIndex = 7;
             this.label2.Text = "points/min";
             // 
@@ -120,10 +116,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(55, 169);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(59, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 32);
+            this.label4.Size = new System.Drawing.Size(38, 21);
             this.label4.TabIndex = 8;
             this.label4.Text = "Vinf";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -132,10 +127,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(55, 216);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(54, 151);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 32);
+            this.label5.Size = new System.Drawing.Size(43, 21);
             this.label5.TabIndex = 9;
             this.label5.Text = "Flow";
             // 
@@ -143,10 +137,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(55, 268);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(56, 185);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 32);
+            this.label6.Size = new System.Drawing.Size(41, 21);
             this.label6.TabIndex = 10;
             this.label6.Text = "Rate";
             // 
@@ -154,10 +147,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(55, 318);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(54, 218);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 32);
+            this.label7.Size = new System.Drawing.Size(43, 21);
             this.label7.TabIndex = 11;
             this.label7.Text = "EMG";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -166,10 +158,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(55, 369);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(37, 247);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 32);
+            this.label8.Size = new System.Drawing.Size(60, 21);
             this.label8.TabIndex = 12;
             this.label8.Text = "change";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -178,10 +169,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(55, 436);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(69, 293);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 32);
+            this.label9.Size = new System.Drawing.Size(28, 21);
             this.label9.TabIndex = 13;
             this.label9.Text = "P1";
             // 
@@ -189,10 +179,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(55, 468);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(69, 323);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 32);
+            this.label10.Size = new System.Drawing.Size(28, 21);
             this.label10.TabIndex = 14;
             this.label10.Text = "P2";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -201,10 +190,9 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(55, 517);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(73, 354);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(35, 32);
+            this.label11.Size = new System.Drawing.Size(24, 21);
             this.label11.TabIndex = 15;
             this.label11.Text = "JF";
             // 
@@ -212,10 +200,9 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(55, 568);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(58, 384);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(56, 32);
+            this.label12.Size = new System.Drawing.Size(39, 21);
             this.label12.TabIndex = 16;
             this.label12.Text = "UPP";
             this.label12.Click += new System.EventHandler(this.label12_Click);
@@ -223,122 +210,99 @@
             // textpabd
             // 
             this.textpabd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textpabd.Location = new System.Drawing.Point(202, 77);
-            this.textpabd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textpabd.Location = new System.Drawing.Point(109, 60);
             this.textpabd.Name = "textpabd";
-            this.textpabd.Size = new System.Drawing.Size(116, 30);
+            this.textpabd.Size = new System.Drawing.Size(59, 22);
             this.textpabd.TabIndex = 17;
             this.textpabd.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textPoints
             // 
             this.textPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textPoints.Location = new System.Drawing.Point(202, 124);
-            this.textPoints.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textPoints.Location = new System.Drawing.Point(109, 91);
             this.textPoints.Name = "textPoints";
-            this.textPoints.Size = new System.Drawing.Size(116, 30);
+            this.textPoints.Size = new System.Drawing.Size(59, 22);
             this.textPoints.TabIndex = 18;
             // 
             // textVinf
             // 
             this.textVinf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textVinf.Location = new System.Drawing.Point(202, 172);
-            this.textVinf.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textVinf.Location = new System.Drawing.Point(109, 122);
             this.textVinf.Name = "textVinf";
-            this.textVinf.Size = new System.Drawing.Size(116, 30);
+            this.textVinf.Size = new System.Drawing.Size(59, 22);
             this.textVinf.TabIndex = 19;
             // 
             // textFlow
             // 
             this.textFlow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textFlow.Location = new System.Drawing.Point(202, 219);
-            this.textFlow.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textFlow.Location = new System.Drawing.Point(109, 152);
             this.textFlow.Name = "textFlow";
-            this.textFlow.Size = new System.Drawing.Size(116, 30);
+            this.textFlow.Size = new System.Drawing.Size(59, 22);
             this.textFlow.TabIndex = 20;
             // 
             // textRate
             // 
             this.textRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textRate.Location = new System.Drawing.Point(202, 271);
-            this.textRate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textRate.Location = new System.Drawing.Point(109, 186);
             this.textRate.Name = "textRate";
-            this.textRate.Size = new System.Drawing.Size(116, 30);
+            this.textRate.Size = new System.Drawing.Size(59, 22);
             this.textRate.TabIndex = 21;
             // 
             // textEmg
             // 
             this.textEmg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEmg.Location = new System.Drawing.Point(202, 321);
-            this.textEmg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textEmg.Location = new System.Drawing.Point(109, 219);
             this.textEmg.Name = "textEmg";
-            this.textEmg.Size = new System.Drawing.Size(116, 30);
+            this.textEmg.Size = new System.Drawing.Size(59, 22);
             this.textEmg.TabIndex = 22;
             // 
             // textChangeBottel
             // 
             this.textChangeBottel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textChangeBottel.Location = new System.Drawing.Point(202, 372);
-            this.textChangeBottel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textChangeBottel.Location = new System.Drawing.Point(109, 259);
             this.textChangeBottel.Name = "textChangeBottel";
-            this.textChangeBottel.Size = new System.Drawing.Size(116, 30);
+            this.textChangeBottel.Size = new System.Drawing.Size(59, 22);
             this.textChangeBottel.TabIndex = 23;
             // 
             // textP1
             // 
             this.textP1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textP1.Location = new System.Drawing.Point(202, 431);
-            this.textP1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textP1.Location = new System.Drawing.Point(109, 293);
             this.textP1.Name = "textP1";
-            this.textP1.Size = new System.Drawing.Size(116, 30);
+            this.textP1.Size = new System.Drawing.Size(59, 22);
             this.textP1.TabIndex = 24;
             // 
             // textP2
             // 
             this.textP2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textP2.Location = new System.Drawing.Point(202, 471);
-            this.textP2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textP2.Location = new System.Drawing.Point(109, 324);
             this.textP2.Name = "textP2";
-            this.textP2.Size = new System.Drawing.Size(116, 30);
+            this.textP2.Size = new System.Drawing.Size(59, 22);
             this.textP2.TabIndex = 25;
             // 
             // textJf
             // 
             this.textJf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textJf.Location = new System.Drawing.Point(202, 520);
-            this.textJf.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textJf.Location = new System.Drawing.Point(109, 356);
             this.textJf.Name = "textJf";
-            this.textJf.Size = new System.Drawing.Size(116, 30);
+            this.textJf.Size = new System.Drawing.Size(59, 22);
             this.textJf.TabIndex = 26;
             // 
             // textUPP
             // 
             this.textUPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textUPP.Location = new System.Drawing.Point(202, 571);
-            this.textUPP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textUPP.Location = new System.Drawing.Point(109, 386);
             this.textUPP.Name = "textUPP";
-            this.textUPP.Size = new System.Drawing.Size(116, 30);
+            this.textUPP.Size = new System.Drawing.Size(59, 22);
             this.textUPP.TabIndex = 27;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(55, 401);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 32);
-            this.label13.TabIndex = 28;
-            this.label13.Text = "bottel";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(445, 74);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(203, 40);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(156, 32);
+            this.label14.Size = new System.Drawing.Size(103, 21);
             this.label14.TabIndex = 29;
             this.label14.Text = "Sp. Gravity of";
             // 
@@ -346,10 +310,9 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(445, 106);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(203, 61);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(189, 32);
+            this.label15.Size = new System.Drawing.Size(123, 21);
             this.label15.TabIndex = 30;
             this.label15.Text = "Infused Solution";
             this.label15.Click += new System.EventHandler(this.label15_Click);
@@ -357,20 +320,18 @@
             // textSPGravity
             // 
             this.textSPGravity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSPGravity.Location = new System.Drawing.Point(649, 74);
-            this.textSPGravity.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textSPGravity.Location = new System.Drawing.Point(339, 40);
             this.textSPGravity.Name = "textSPGravity";
-            this.textSPGravity.Size = new System.Drawing.Size(116, 30);
+            this.textSPGravity.Size = new System.Drawing.Size(61, 22);
             this.textSPGravity.TabIndex = 31;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(773, 71);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(406, 43);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(85, 32);
+            this.label16.Size = new System.Drawing.Size(46, 17);
             this.label16.TabIndex = 32;
             this.label16.Text = "gm/ml";
             // 
@@ -378,10 +339,9 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(445, 153);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(203, 91);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(185, 32);
+            this.label17.Size = new System.Drawing.Size(120, 21);
             this.label17.TabIndex = 33;
             this.label17.Text = "Defualt Infusion";
             // 
@@ -389,30 +349,27 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(445, 185);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(203, 112);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(145, 32);
+            this.label18.Size = new System.Drawing.Size(96, 21);
             this.label18.TabIndex = 34;
             this.label18.Text = "Rate ml/min";
             // 
             // textDefualtInfusion
             // 
             this.textDefualtInfusion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textDefualtInfusion.Location = new System.Drawing.Point(649, 169);
-            this.textDefualtInfusion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textDefualtInfusion.Location = new System.Drawing.Point(339, 102);
             this.textDefualtInfusion.Name = "textDefualtInfusion";
-            this.textDefualtInfusion.Size = new System.Drawing.Size(116, 30);
+            this.textDefualtInfusion.Size = new System.Drawing.Size(61, 22);
             this.textDefualtInfusion.TabIndex = 35;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(773, 170);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(406, 104);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(91, 32);
+            this.label19.Size = new System.Drawing.Size(48, 17);
             this.label19.TabIndex = 36;
             this.label19.Text = "ml/min";
             // 
@@ -420,10 +377,9 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(445, 244);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Location = new System.Drawing.Point(203, 151);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(281, 32);
+            this.label20.Size = new System.Drawing.Size(184, 21);
             this.label20.TabIndex = 37;
             this.label20.Text = "Infusion Pump Constants";
             // 
@@ -431,10 +387,9 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(462, 288);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Location = new System.Drawing.Point(214, 179);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(129, 32);
+            this.label21.Size = new System.Drawing.Size(85, 21);
             this.label21.TabIndex = 38;
             this.label21.Text = "Constant 1";
             // 
@@ -442,38 +397,36 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(462, 333);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Location = new System.Drawing.Point(214, 208);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(129, 32);
+            this.label22.Size = new System.Drawing.Size(85, 21);
             this.label22.TabIndex = 39;
             this.label22.Text = "Constant 2";
             // 
             // textConstant1
             // 
             this.textConstant1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textConstant1.Location = new System.Drawing.Point(649, 291);
-            this.textConstant1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textConstant1.Location = new System.Drawing.Point(339, 181);
             this.textConstant1.Name = "textConstant1";
-            this.textConstant1.Size = new System.Drawing.Size(116, 30);
+            this.textConstant1.Size = new System.Drawing.Size(61, 22);
             this.textConstant1.TabIndex = 40;
             // 
             // textConstant2
             // 
             this.textConstant2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textConstant2.Location = new System.Drawing.Point(649, 336);
-            this.textConstant2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textConstant2.Location = new System.Drawing.Point(339, 210);
             this.textConstant2.Name = "textConstant2";
-            this.textConstant2.Size = new System.Drawing.Size(116, 30);
+            this.textConstant2.Size = new System.Drawing.Size(61, 22);
             this.textConstant2.TabIndex = 41;
             // 
             // checkPretestVoding
             // 
             this.checkPretestVoding.AutoSize = true;
             this.checkPretestVoding.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkPretestVoding.Location = new System.Drawing.Point(440, 378);
+            this.checkPretestVoding.Location = new System.Drawing.Point(199, 238);
+            this.checkPretestVoding.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkPretestVoding.Name = "checkPretestVoding";
-            this.checkPretestVoding.Size = new System.Drawing.Size(333, 29);
+            this.checkPretestVoding.Size = new System.Drawing.Size(242, 21);
             this.checkPretestVoding.TabIndex = 45;
             this.checkPretestVoding.Text = "Measure pre-test Voding Residual";
             this.checkPretestVoding.UseVisualStyleBackColor = true;
@@ -482,9 +435,10 @@
             // 
             this.checkPVR.AutoSize = true;
             this.checkPVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkPVR.Location = new System.Drawing.Point(440, 417);
+            this.checkPVR.Location = new System.Drawing.Point(199, 263);
+            this.checkPVR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkPVR.Name = "checkPVR";
-            this.checkPVR.Size = new System.Drawing.Size(160, 29);
+            this.checkPVR.Size = new System.Drawing.Size(114, 21);
             this.checkPVR.TabIndex = 46;
             this.checkPVR.Text = "Measure PVR";
             this.checkPVR.UseVisualStyleBackColor = true;
@@ -493,9 +447,10 @@
             // 
             this.checkComments.AutoSize = true;
             this.checkComments.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkComments.Location = new System.Drawing.Point(440, 458);
+            this.checkComments.Location = new System.Drawing.Point(199, 290);
+            this.checkComments.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkComments.Name = "checkComments";
-            this.checkComments.Size = new System.Drawing.Size(133, 29);
+            this.checkComments.Size = new System.Drawing.Size(93, 21);
             this.checkComments.TabIndex = 47;
             this.checkComments.Text = "Comments";
             this.checkComments.UseVisualStyleBackColor = true;
@@ -503,9 +458,10 @@
             // buttonOk
             // 
             this.buttonOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonOk.Location = new System.Drawing.Point(451, 553);
+            this.buttonOk.Location = new System.Drawing.Point(207, 351);
+            this.buttonOk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(150, 48);
+            this.buttonOk.Size = new System.Drawing.Size(100, 31);
             this.buttonOk.TabIndex = 48;
             this.buttonOk.Text = "Ok";
             this.buttonOk.UseVisualStyleBackColor = true;
@@ -513,18 +469,29 @@
             // buttonCancel
             // 
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCancel.Location = new System.Drawing.Point(649, 552);
+            this.buttonCancel.Location = new System.Drawing.Point(339, 351);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(150, 48);
+            this.buttonCancel.Size = new System.Drawing.Size(100, 31);
             this.buttonCancel.TabIndex = 49;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(47, 264);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(50, 21);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "bottel";
+            // 
             // SystemSetup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(946, 669);
+            this.ClientSize = new System.Drawing.Size(463, 435);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.checkComments);
@@ -568,7 +535,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPves);
             this.Controls.Add(this.label3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SystemSetup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SystemSetup";
             this.Load += new System.EventHandler(this.SystemSetup_Load);
             this.ResumeLayout(false);
@@ -601,7 +570,6 @@
         private System.Windows.Forms.TextBox textP2;
         private System.Windows.Forms.TextBox textJf;
         private System.Windows.Forms.TextBox textUPP;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox textSPGravity;
@@ -620,5 +588,6 @@
         private System.Windows.Forms.CheckBox checkComments;
         private System.Windows.Forms.Button buttonOk;
         private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.Label label13;
     }
 }
