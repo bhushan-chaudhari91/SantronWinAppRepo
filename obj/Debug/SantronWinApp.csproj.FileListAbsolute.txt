@@ -20,3 +20,6 @@ D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.Ge
 D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.CoreCompileInputs.cache
 D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.exe
 D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.pdb
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.HospitalAndDoctorInfoSetUp.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.ScaleAndColorSteup.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.SystemSetup.resources
