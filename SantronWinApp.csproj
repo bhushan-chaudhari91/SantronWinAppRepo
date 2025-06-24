@@ -101,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ScaleAndColorSteup.resx">
       <DependentUpon>ScaleAndColorSteup.cs</DependentUpon>
@@ -120,6 +121,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Speed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Speed2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\S UP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\S Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
