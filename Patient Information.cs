@@ -26,5 +26,10 @@ namespace SantronWinApp
         {
             //New Change ok hsiajdj
         }
+
+        private void Patient_Information_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
