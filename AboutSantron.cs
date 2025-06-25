@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace SantronWinApp
 {
-    public partial class Symptoms : Form
+    public partial class AboutSantron : Form
     {
-        public Symptoms()
+        public AboutSantron()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonSave_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }

@@ -52,30 +52,27 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(27, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 32);
+            this.label1.Size = new System.Drawing.Size(97, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "Symptom ID";
             // 
             // txtSymptomId
             // 
             this.txtSymptomId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSymptomId.Location = new System.Drawing.Point(186, 31);
-            this.txtSymptomId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtSymptomId.Location = new System.Drawing.Point(124, 20);
             this.txtSymptomId.Name = "txtSymptomId";
-            this.txtSymptomId.Size = new System.Drawing.Size(272, 30);
+            this.txtSymptomId.Size = new System.Drawing.Size(183, 22);
             this.txtSymptomId.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(466, 34);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(311, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 32);
+            this.label2.Size = new System.Drawing.Size(124, 21);
             this.label2.TabIndex = 4;
             this.label2.Text = "Symptom Name";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -83,49 +80,44 @@
             // textSymptomName
             // 
             this.textSymptomName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSymptomName.Location = new System.Drawing.Point(661, 36);
-            this.textSymptomName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textSymptomName.Location = new System.Drawing.Point(441, 23);
             this.textSymptomName.Name = "textSymptomName";
-            this.textSymptomName.Size = new System.Drawing.Size(272, 30);
+            this.textSymptomName.Size = new System.Drawing.Size(183, 22);
             this.textSymptomName.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(-1, 105);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(-1, 68);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(179, 32);
+            this.label3.Size = new System.Drawing.Size(118, 21);
             this.label3.TabIndex = 6;
             this.label3.Text = "Symptom Code";
             // 
             // textSymptomCode
             // 
             this.textSymptomCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSymptomCode.Location = new System.Drawing.Point(186, 107);
-            this.textSymptomCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textSymptomCode.Location = new System.Drawing.Point(124, 70);
             this.textSymptomCode.Name = "textSymptomCode";
-            this.textSymptomCode.Size = new System.Drawing.Size(272, 30);
+            this.textSymptomCode.Size = new System.Drawing.Size(183, 22);
             this.textSymptomCode.TabIndex = 7;
             // 
             // textDurations
             // 
             this.textDurations.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textDurations.Location = new System.Drawing.Point(661, 197);
-            this.textDurations.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textDurations.Location = new System.Drawing.Point(441, 128);
             this.textDurations.Name = "textDurations";
-            this.textDurations.Size = new System.Drawing.Size(272, 30);
+            this.textDurations.Size = new System.Drawing.Size(183, 22);
             this.textDurations.TabIndex = 10;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(533, 104);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(355, 68);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 32);
+            this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 17;
             this.label4.Text = "Category";
             // 
@@ -133,10 +125,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(-1, 197);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(-1, 128);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(161, 32);
+            this.label5.Size = new System.Drawing.Size(106, 21);
             this.label5.TabIndex = 18;
             this.label5.Text = "Severity Level";
             // 
@@ -144,10 +135,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(471, 197);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(314, 128);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(182, 32);
+            this.label6.Size = new System.Drawing.Size(122, 21);
             this.label6.TabIndex = 19;
             this.label6.Text = "Durations(Days)";
             // 
@@ -155,10 +145,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(82, 288);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(55, 187);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 32);
+            this.label8.Size = new System.Drawing.Size(52, 21);
             this.label8.TabIndex = 21;
             this.label8.Text = "Status";
             // 
@@ -166,74 +155,77 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(63, 369);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(42, 240);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 32);
+            this.label9.Size = new System.Drawing.Size(51, 21);
             this.label9.TabIndex = 22;
             this.label9.Text = "Notes";
             // 
             // richTextNotes
             // 
-            this.richTextNotes.Location = new System.Drawing.Point(186, 369);
+            this.richTextNotes.Location = new System.Drawing.Point(124, 240);
+            this.richTextNotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextNotes.Name = "richTextNotes";
-            this.richTextNotes.Size = new System.Drawing.Size(272, 81);
+            this.richTextNotes.Size = new System.Drawing.Size(183, 54);
             this.richTextNotes.TabIndex = 23;
             this.richTextNotes.Text = "";
             // 
             // comboStatus
             // 
             this.comboStatus.FormattingEnabled = true;
-            this.comboStatus.Location = new System.Drawing.Point(186, 295);
+            this.comboStatus.Location = new System.Drawing.Point(124, 192);
+            this.comboStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboStatus.Name = "comboStatus";
-            this.comboStatus.Size = new System.Drawing.Size(272, 28);
+            this.comboStatus.Size = new System.Drawing.Size(183, 21);
             this.comboStatus.TabIndex = 24;
             // 
             // comboCategory
             // 
             this.comboCategory.FormattingEnabled = true;
-            this.comboCategory.Location = new System.Drawing.Point(661, 112);
+            this.comboCategory.Location = new System.Drawing.Point(441, 73);
+            this.comboCategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboCategory.Name = "comboCategory";
-            this.comboCategory.Size = new System.Drawing.Size(272, 28);
+            this.comboCategory.Size = new System.Drawing.Size(183, 21);
             this.comboCategory.TabIndex = 25;
             // 
             // comboSeverityLevel
             // 
             this.comboSeverityLevel.FormattingEnabled = true;
-            this.comboSeverityLevel.Location = new System.Drawing.Point(186, 204);
+            this.comboSeverityLevel.Location = new System.Drawing.Point(124, 133);
+            this.comboSeverityLevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboSeverityLevel.Name = "comboSeverityLevel";
-            this.comboSeverityLevel.Size = new System.Drawing.Size(272, 28);
+            this.comboSeverityLevel.Size = new System.Drawing.Size(183, 21);
             this.comboSeverityLevel.TabIndex = 26;
             // 
             // buttonSave
             // 
             this.buttonSave.BackColor = System.Drawing.SystemColors.Control;
             this.buttonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSave.Location = new System.Drawing.Point(522, 390);
-            this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonSave.Location = new System.Drawing.Point(348, 253);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(147, 51);
+            this.buttonSave.Size = new System.Drawing.Size(98, 33);
             this.buttonSave.TabIndex = 27;
             this.buttonSave.Text = "Save";
             this.buttonSave.UseVisualStyleBackColor = false;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonCancel
             // 
             this.buttonCancel.BackColor = System.Drawing.SystemColors.Control;
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCancel.Location = new System.Drawing.Point(707, 390);
-            this.buttonCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonCancel.Location = new System.Drawing.Point(471, 253);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(147, 51);
+            this.buttonCancel.Size = new System.Drawing.Size(98, 33);
             this.buttonCancel.TabIndex = 28;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = false;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // Symptoms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(981, 539);
+            this.ClientSize = new System.Drawing.Size(654, 350);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.comboSeverityLevel);
@@ -252,7 +244,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSymptomId);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Symptoms";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Notes";
             this.ResumeLayout(false);
             this.PerformLayout();

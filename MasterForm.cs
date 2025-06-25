@@ -28,6 +28,7 @@ namespace SantronWinApp
             // Create top-level menu items
             ToolStripMenuItem fileMenu = new ToolStripMenuItem("File");
             ToolStripMenuItem viewMenu = new ToolStripMenuItem("View");
+            ToolStripMenuItem masterMenu = new ToolStripMenuItem("Master");
             ToolStripMenuItem setupMenu = new ToolStripMenuItem("Setup");
             ToolStripMenuItem markersMenu = new ToolStripMenuItem("Markers");
             ToolStripMenuItem infusionMenu = new ToolStripMenuItem("Infusion");
@@ -55,6 +56,10 @@ namespace SantronWinApp
             ToolStripMenuItem statusBarMenuItem = new ToolStripMenuItem("Status Bar");
             statusBarMenuItem.CheckOnClick = true; // Enable check/uncheck on click
             statusBarMenuItem.Checked = true; // Default checked state (status bar visible)
+
+            //For Master 
+            ToolStripMenuItem doctersItem = new ToolStripMenuItem("Docters");
+            ToolStripMenuItem symptomsItem = new ToolStripMenuItem("Symptoms");
 
             //For Markers
             // Markers -> Bladder Sensation
@@ -118,12 +123,35 @@ namespace SantronWinApp
 
             //For View Menu
 
+            //For Master Menu
+            doctersItem.Click += (s, args) =>
+            {
+                Doctor docterForm = new Doctor();
+                docterForm.Show();
+
+            };
+
+            symptomsItem.Click += (s, args) =>
+            {
+                Symptoms symptomsForm = new Symptoms();
+                symptomsForm.Show();
+
+            };
+
+
+
+
             //For Setup Menu
             systemMenuItem.Click += (s, args) =>
             {
-                SystemSetup systemForm = new SystemSetup();
-                systemForm.Show(); 
+                //SystemSetup systemForm = new SystemSetup();
+                //systemForm.Show(); 
+
+                PasswordForm systemForm = new PasswordForm();
+                systemForm.Show();
+
             };
+
             hospitalMenuItem.Click += (s, args) =>
             {
                 HospitalAndDoctorInfoSetUp hospitalForm = new HospitalAndDoctorInfoSetUp();
@@ -136,7 +164,12 @@ namespace SantronWinApp
                 pressureStudyForm.Show();
             };
             //For Help Menu
-            aboutMenuItem.Click += (s, args) => MessageBox.Show("Santron UroDynamics Version U3.0 with UPP && UFM+EMG\r\nUpgrade dated 27-05-2024\r\nMfg. by : Santron Meditronic, Pune 411037, Email: santronmeditronic@gmail.com\r\nVisit us at www.santronmeditronic.in\r\nSales: +91-9561030550\r\nService Customer care Support: +91-9209584218", "About");
+            //aboutMenuItem.Click += (s, args) => MessageBox.Show("Santron UroDynamics Version U3.0 with UPP && UFM+EMG\r\nUpgrade dated 27-05-2024\r\nMfg. by : Santron Meditronic, Pune 411037, Email: santronmeditronic@gmail.com\r\nVisit us at www.santronmeditronic.in\r\nSales: +91-9561030550\r\nService Customer care Support: +91-9209584218", "About");
+            aboutMenuItem.Click += (s, args) =>
+            {
+                AboutSantron aboutForm = new AboutSantron();
+                aboutForm.Show();
+            };
             helpMenuItem.Click += (s, args) => MessageBox.Show("Read Only", "About");
 
             // Add sub-menu items to File menu
@@ -150,7 +183,12 @@ namespace SantronWinApp
             // Add sub-menu items to View menu
             viewMenu.DropDownItems.Add(toolBarMenuItem);
             viewMenu.DropDownItems.Add(statusBarMenuItem);
-           
+
+
+            //For Master Menu
+            masterMenu.DropDownItems.Add(doctersItem);
+            masterMenu.DropDownItems.Add(symptomsItem);
+
 
             // Add sub-menu items to Setup menu
             setupMenu.DropDownItems.Add(systemMenuItem);
@@ -190,6 +228,7 @@ namespace SantronWinApp
             // Add top-level menu items to MenuStrip
             menuStrip.Items.Add(fileMenu);
             menuStrip.Items.Add(viewMenu);
+            menuStrip.Items.Add(masterMenu);
             menuStrip.Items.Add(setupMenu);
             menuStrip.Items.Add(markersMenu);
             menuStrip.Items.Add(infusionMenu);
@@ -258,6 +297,12 @@ namespace SantronWinApp
                     // pageSetup.PrinterSettings here
                 }
             }
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            ReportComments reportsForm = new ReportComments();
+            reportsForm.Show();
         }
     }
 }

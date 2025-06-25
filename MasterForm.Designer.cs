@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -57,9 +60,6 @@
             this.btnND = new System.Windows.Forms.Button();
             this.btnFD = new System.Windows.Forms.Button();
             this.btnFS = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,6 +103,48 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1367, 33);
             this.panel1.TabIndex = 0;
+            // 
+            // button27
+            // 
+            this.button27.AutoSize = true;
+            this.button27.BackColor = System.Drawing.Color.Cyan;
+            this.button27.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button27.Font = new System.Drawing.Font("Britannic Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button27.ForeColor = System.Drawing.Color.Black;
+            this.button27.Location = new System.Drawing.Point(1315, -1);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(47, 34);
+            this.button27.TabIndex = 29;
+            this.button27.Text = "ARM\r\nSPEED";
+            this.button27.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.AutoSize = true;
+            this.button25.BackColor = System.Drawing.Color.Cyan;
+            this.button25.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button25.Font = new System.Drawing.Font("Britannic Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button25.ForeColor = System.Drawing.Color.Black;
+            this.button25.Location = new System.Drawing.Point(1237, -1);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(46, 34);
+            this.button25.TabIndex = 27;
+            this.button25.Text = "STOP\r\nARM";
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            this.button26.AutoSize = true;
+            this.button26.BackColor = System.Drawing.Color.Cyan;
+            this.button26.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button26.Font = new System.Drawing.Font("Britannic Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button26.ForeColor = System.Drawing.Color.Black;
+            this.button26.Location = new System.Drawing.Point(1281, -1);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(36, 34);
+            this.button26.TabIndex = 28;
+            this.button26.Text = "ARM\r\nDIR";
+            this.button26.UseVisualStyleBackColor = false;
             // 
             // button24
             // 
@@ -153,6 +195,7 @@
             this.button21.TabIndex = 23;
             this.button21.Text = "CM";
             this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button20
             // 
@@ -464,48 +507,6 @@
             this.btnFS.TabIndex = 0;
             this.btnFS.Text = "FS";
             this.btnFS.UseVisualStyleBackColor = false;
-            // 
-            // button25
-            // 
-            this.button25.AutoSize = true;
-            this.button25.BackColor = System.Drawing.Color.Cyan;
-            this.button25.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button25.Font = new System.Drawing.Font("Britannic Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.ForeColor = System.Drawing.Color.Black;
-            this.button25.Location = new System.Drawing.Point(1237, -1);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(46, 34);
-            this.button25.TabIndex = 27;
-            this.button25.Text = "STOP\r\nARM";
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.AutoSize = true;
-            this.button26.BackColor = System.Drawing.Color.Cyan;
-            this.button26.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button26.Font = new System.Drawing.Font("Britannic Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.ForeColor = System.Drawing.Color.Black;
-            this.button26.Location = new System.Drawing.Point(1281, -1);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(36, 34);
-            this.button26.TabIndex = 28;
-            this.button26.Text = "ARM\r\nDIR";
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            this.button27.AutoSize = true;
-            this.button27.BackColor = System.Drawing.Color.Cyan;
-            this.button27.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button27.Font = new System.Drawing.Font("Britannic Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.ForeColor = System.Drawing.Color.Black;
-            this.button27.Location = new System.Drawing.Point(1315, -1);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(47, 34);
-            this.button27.TabIndex = 29;
-            this.button27.Text = "ARM\r\nSPEED";
-            this.button27.UseVisualStyleBackColor = false;
             // 
             // MasterForm
             // 

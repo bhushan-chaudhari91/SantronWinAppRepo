@@ -26,5 +26,15 @@ namespace SantronWinApp
         {
 
         }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

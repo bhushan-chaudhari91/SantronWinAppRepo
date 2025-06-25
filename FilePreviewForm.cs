@@ -7,12 +7,16 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Helpers;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms;
+using Chart = System.Web.Helpers.Chart;
 
 namespace SantronWinApp
 {
     public partial class FilePreviewForm : Form
     {
+        //private Chart chart;
         public FilePreviewForm(string filePath)
         {
             InitializeComponent();
@@ -50,7 +54,7 @@ namespace SantronWinApp
                 var webBrowser = new WebBrowser
                 {
                     Dock = DockStyle.Fill,
-                    Url = new Uri(filePath) 
+                    Url = new Uri(filePath)
                 };
                 this.Controls.Add(webBrowser);
             }
@@ -70,5 +74,7 @@ namespace SantronWinApp
         {
 
         }
+
+       
     }
 }
