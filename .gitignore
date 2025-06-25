@@ -3,3 +3,6 @@ obj/
 *.exe
 *.pdb
 *.cache
+.vs
+.git
+*.htm

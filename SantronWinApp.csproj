@@ -52,7 +52,7 @@
     </Compile>
     <Compile Include="FilePreviewForm.Designer.cs">
       <DependentUpon>FilePreviewForm.cs</DependentUpon>
-
+    </Compile>
     <Compile Include="Doctor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +111,7 @@
     </Compile>
     <EmbeddedResource Include="FilePreviewForm.resx">
       <DependentUpon>FilePreviewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Doctor.resx">
       <DependentUpon>Doctor.cs</DependentUpon>
     </EmbeddedResource>
