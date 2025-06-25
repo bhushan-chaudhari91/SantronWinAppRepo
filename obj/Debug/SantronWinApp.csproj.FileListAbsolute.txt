@@ -12,3 +12,18 @@ D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\
 D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\SantronWinApp.csproj.CoreCompileInputs.cache
 D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\SantronWinApp.exe
 D:\Mitroz 2025 All Projects\Santron Project\Windows App\SantronWinApp\obj\Debug\SantronWinApp.pdb
+D:\Mitroz Project\Window App\SantronWinAppRepo\bin\Debug\SantronWinApp.exe.config
+D:\Mitroz Project\Window App\SantronWinAppRepo\bin\Debug\SantronWinApp.exe
+D:\Mitroz Project\Window App\SantronWinAppRepo\bin\Debug\SantronWinApp.pdb
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.AssemblyReference.cache
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.HospitalAndDoctorInfoSetUp.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.MasterForm.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.Patient_Information.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.Properties.Resources.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.ReportComments.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.ScaleAndColorSteup.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.SystemSetup.resources
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.GenerateResource.cache
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.csproj.CoreCompileInputs.cache
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.exe
+D:\Mitroz Project\Window App\SantronWinAppRepo\obj\Debug\SantronWinApp.pdb
